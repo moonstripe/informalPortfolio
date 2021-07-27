@@ -122,8 +122,8 @@ function App() {
         </h3>
       </div>
 
-      <h2 ref={missionRef} data-aos="fade-up" className='twoFour' style={{ marginTop: height / 2, fontFamily: "EB Garamond" }}> <i>What I want to achieve at Informal Systems,</i></h2>
-      <h1 data-aos="fade-up" className='threeFive' style={{ marginTop: height / 8, fontFamily: "EB Garamond" }}>is to make the blockchain <i>feel</i> good.</h1>
+      <h2 ref={missionRef} data-aos="fade-up" className='twoFour' style={{ marginTop: height / 2 }}>What I want to achieve at Informal Systems,</h2>
+      <h1 data-aos="fade-up" className='threeFive' style={{ marginTop: height / 8  }}>is to make the blockchain <i style={{ fontFamily: 'EB Garamond'}}>feel</i> good.</h1>
 
       <p data-aos="fade-in" className='twoFour' style={{ marginTop: height / 8 }}>The technology that can change most everyone's lives already exists. What's lacking is a voice to spread the word. The blockchain and its offspring have allowed us to think beyond the traditional. It's time to apply that to design.</p>
 
@@ -136,7 +136,7 @@ function App() {
       <div ref={kaiRef} className="presentation" style={{ marginTop: height / 16 }}>
         <h2 data-aos='fade-right' className='presentationTwoThree' style={{ marginLeft: '2vw' }}>KaiCube: An Emulator Case</h2>
 
-        <img data-aos='fade-right' className='presentationTwoThree' style={{ maxHeight: '20vw' }} src='./images/nocont.png' alt="The KaiCube, an emulator made of pine wood, acrylic, and a Raspberry Pi 4" />
+        <img data-aos='fade-right' className='presentationTwoThree' style={{ maxHeight: '25vw' }} src='./images/nocont.png' alt="The KaiCube, an emulator made of pine wood, acrylic, and a Raspberry Pi 4" />
 
         <p data-aos='fade-in' className='presentationThreeFive' style={{ padding: 25 }}>The KaiCube is a vertically oriented case for a Raspberry Pi that runs the RetroPie emulation software. It can play many of the games made prior to the addition of the Graphics Processing Unit in consumer consoles, making it the perfect nostalgia machine. <br /><br /> Sit down with your friends and family and enjoy more 8-bit action than you thought could fit in the red and pine case of the KaiCube! The presentation of this console was designed in Adobe Illustrator.</p>
       </div>

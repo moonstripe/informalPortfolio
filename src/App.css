@@ -5,7 +5,8 @@ html, body {
 
 p {
   text-align: justify;
-  font-family: 'EB Garamond'
+  font-family: 'EB Garamond';
+  font-size: 18px
 }
 
 a:visited {color: #3d5ca0}
@@ -28,7 +29,7 @@ ul {
 }
 
 i {
-  font-family: 'Montserrat'
+  font-family: 'Montserrat', sans-serif
 }
 
 .container {
