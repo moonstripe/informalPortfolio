@@ -142,7 +142,7 @@ function App() {
       </div>
 
       <div ref={beyondRef} className="presentation" style={{ marginTop: height / 16 }}>
-        <h2 data-aos='fade-left' className='presentationTwoThree' style={{ marginLeft: '2vw' }}>Beyond <i>Beyond</i>: A Visual Case Study of Leidsche Rijn</h2>
+        <h2 data-aos='fade-left' className='presentationTwoThree' style={{ marginLeft: '2vw' }}>Beyond <i>Beyond</i>: A Visual Study of Leidsche Rijn</h2>
         <YoutubeEmbed />
         <p data-aos='fade-in' className='presentationTwoFive' style={{ paddingLeft: 25, paddingRight: 25, paddingBottom: 25 }}>Beyond <i>Beyond</i> was a semester-long project in understanding and appreciating a new district annexation of the city of Utrecht in the Netherlands. The visual direction we took was to preserve the new, almost sterile environment of the recently added residential areas. This video was created using Adobe Premiere.</p>
       </div>
