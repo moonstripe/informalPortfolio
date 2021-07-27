@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import useWindowDimensions from './hooks/useWindowHeight';
 import { useEffect, useState, useRef } from 'react';
 
+// break the following out into /components
 const YoutubeEmbed = () => (
   <div data-aos='fade-left' className='presentationTwoFour' style={{ padding: 25 }}>
     <iframe width='670' height="300" src="https://www.youtube.com/embed/MG1J4Zn35zE" title="Beyond Beyond" frameBorder="0"></iframe>
@@ -56,6 +57,7 @@ function App() {
   const beyondRef = useRef()
   const svgRef = useRef()
 
+  // break the following out into /hooks
   const handleIntroClick = () => {
     introRef.current.scrollIntoView({ behavior: 'smooth' })
   }
