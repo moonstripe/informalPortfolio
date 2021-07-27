@@ -25,6 +25,10 @@ p {
 
 a:visited {color: #3d5ca0}
 
+html, body {
+  overscroll-behavior: none;
+}
+
 .presentationTwoThree {
   grid-column-start: 2;
   grid-column-end: 3;

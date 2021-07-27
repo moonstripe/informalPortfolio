@@ -97,7 +97,7 @@ function App() {
       </div>
 
       <div className="presentation" style={{ marginTop: height / 16, marginBottom: height / 16, textAlign: 'center', color: 'white' }}>
-        <h3>Find the source here: <a href="https://www.github.com/moonstripe" target="_blank" rel="noreferrer" >GitHub</a></h3>
+        <h3>Find the source here: <a href="https://github.com/moonstripe/informalPortfolio" target="_blank" rel="noreferrer" >GitHub</a></h3>
       </div>
     </div >
   );
