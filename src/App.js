@@ -74,9 +74,6 @@ function App() {
     svgRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
-
-
-
   const handleScroll = () => {
     const position = window.pageYOffset;
     console.log(position / height)
@@ -100,10 +97,6 @@ function App() {
           <li data-aos='fade-in'><button onClick={handleIntroClick}>Intro</button></li>
           { scrollPosition / height > 0.8 ?
             <li data-aos='fade-in'><button onClick={handleMissionCLick}>Mission Statement</button></li> : null
-          }
-          { scrollPosition / height > 1.5 ?
-            <li data-aos='fade-in'><button onClick={handleKaiClick}>Design Experience</button></li> : null
-
           }
           <ul>
             {scrollPosition / height > 2 ?
