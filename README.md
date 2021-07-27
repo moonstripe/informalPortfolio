@@ -5,3 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Objective
 
 This portfolio serves as a taste test of my skills as a visual designer. This is meant for those hiring a new visual designer at [Informal Systems](https://informal.systems).
+
+## Next Steps
+
+Make responsive to mobile with useMediaQuery hook.
