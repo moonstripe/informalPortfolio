@@ -76,7 +76,6 @@ function App() {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    console.log(position / height)
     setScrollPosition(position);
   };
 
